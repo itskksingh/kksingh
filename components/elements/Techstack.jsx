@@ -19,8 +19,7 @@ const Techstack = ({ containerClass = "" }) => {
   const secondRow = skills.slice(mid);
 
   return (
-    <div
-      className={`mt-5 space-y-6 overflow-hidden w-full flex flex-col items-center justify-center ${containerClass}`}>
+    <div className={`space-y-6 overflow-hidden w-full flex flex-col items-center justify-center ${containerClass}`}>
       <MarqueeRow icons={firstRow} />
       <MarqueeRow icons={secondRow} direction='right' className='w-[80%]' />
     </div>

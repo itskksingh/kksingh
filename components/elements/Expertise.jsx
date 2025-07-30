@@ -11,7 +11,7 @@ const Expertise = () => {
     <ul className='space-y-5 font-mono text-base text-[#8f8f92] list-disc '>
       {techStacks.map((item) => (
         <li key={item.category}>
-          <span className='text-white font-bold mb-2 block md:inline'>{item.category}:</span>
+          <span className='text-white font-bold mb-1.5 block md:inline'>{item.category}:</span>
           <span className='lg:ml-2'>{item.skills}</span>
         </li>
       ))}
