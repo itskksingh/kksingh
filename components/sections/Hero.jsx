@@ -1,9 +1,18 @@
 import Image from "next/image";
-import Section from "../Section";
+import Marquee from "../elements/Marquee";
+import Section from "../elements/Section";
+
+const skills = [
+  "/icons/nextjs-icon.svg",
+  "/icons/react-js-icon.svg",
+  "/icons/node-js-icon.svg",
+  "/icons/tailwind-css-icon.svg",
+  "/icons/mongodb-icon.svg",
+];
 
 const Hero = () => {
   return (
-    <Section>
+    <Section animated={false}>
       <div className='flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 py-8 px-5'>
         {/* Profile Image */}
         <div className='flex-shrink-0 mb-8 lg:mb-0'>
@@ -33,6 +42,7 @@ const Hero = () => {
             ... I deliver web solutions that are both innovative and robust.
           </p>
         </div>
+        {/* <Marquee icons={skills} /> */}
       </div>
     </Section>
   );

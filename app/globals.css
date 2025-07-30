@@ -49,7 +49,8 @@ body {
 @layer utilities {
   .borderbox-animated {
     border-radius: 8px;
-    border: 1px solid transparent;
+    border: 1px solid transparent; /* Always-on fallback border */
+    box-shadow: 0 0 0 1px #3b413d inset;
     background: linear-gradient(#272730, #272730) padding-box,
       linear-gradient(var(--angle), #181c1f 90%, #a8ff53 100%) border-box;
     background-origin: border-box;
@@ -64,8 +65,6 @@ body {
   background-clip: text;
   color: transparent;
 }
-
-
 
 @keyframes border-rotate {
   0% {
