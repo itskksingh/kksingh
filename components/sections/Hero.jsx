@@ -2,6 +2,7 @@ import Image from "next/image";
 import { BiDownload } from "react-icons/bi";
 import MarqueeRow from "../elements/Marquee";
 import Section from "../elements/Section";
+import Typetitle from "../elements/Typetitle";
 
 const skills = [
   "/icons/nextjs-icon.svg",
@@ -28,18 +29,14 @@ const Hero = () => {
         </div>
         {/* Text Content */}
         <div className='flex-1 w-full flex flex-col items-start space-y-2 overflow-hidden'>
-          <p className='text-base sm:text-lg font-mono block text-center text-white lg:text-left'>
-            <span className='text-pink-500'>&lt;span&gt;</span>
-            Hey, I&apos;m <span className='font-bold'>K K Singh</span>
-            <span className='text-pink-500'>&lt;/span&gt;</span>
-          </p>
-          <h1 className='font-mono text-3xl sm:text-4xl md:text-5xl font-semibold capitalize  lg:text-left leading-tight text-white'>
+          <Typetitle />
+          <h1 className='font-mono text-3xl  md:text-4xl  lg:text-5xl font-semibold capitalize  lg:text-left leading-tight text-white'>
             Senior <span className='text-linear-4'>{" {full stack} "}</span>
             web &amp; app developer.
           </h1>
           <p className='font-mono font-light text-sm md:text-lg text-white'>
-            <span className='text-pink-500'>&lt;p&gt;</span>With expertise in cutting-edge technologies such as 
-            <span className='text-pink-500'> NodeJS, React, Angular, and Laravel</span>
+            <span className='text-pink-500'>&lt;p&gt;</span>With expertise in cutting-edge technologies such as
+            <span className='text-pink-500'> NextJs, React, NodeJS, Angular, and Tailwind</span>
             ... I deliver web solutions that are both innovative and robust.
             <span className='text-pink-500'>&lt;/p&gt;</span>
           </p>
