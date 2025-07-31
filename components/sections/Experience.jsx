@@ -3,8 +3,8 @@ import Section from "../elements/Section";
 
 const Experience = () => {
   return (
-    <section className='flex gap-8 flex-col lg:flex-row '>
-      <Section as='div' className='flex  lg:flex-3/2 relative overflow-hidden'>
+    <section className='flex gap-8 flex-col md:flex-row '>
+      <Section as='div' className='flex md:flex-3/2 relative overflow-hidden'>
         <h2 className='text-white text-3xl font-mono'>
           Trusted by more than 100+ <span className='text-slate-500'>companies worldwide_</span>{" "}
         </h2>

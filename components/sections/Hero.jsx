@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Marquee from "../elements/Marquee";
 import Section from "../elements/Section";
 
 const skills = [
@@ -12,7 +11,7 @@ const skills = [
 
 const Hero = () => {
   return (
-    <Section animated={false}>
+    <Section className='border border-[#3b413d]'>
       <div className='flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 py-8 px-5'>
         {/* Profile Image */}
         <div className='flex-shrink-0 mb-8 lg:mb-0'>

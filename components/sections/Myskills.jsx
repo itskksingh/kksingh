@@ -11,7 +11,7 @@ const Myskills = () => {
         <h2 className='font-sans text-2xl md:text-3xl lg:text-4xl font-medium text-white'>My Techstacks</h2>
       </div>
 
-      <div className='flex flex-col lg:flex-row divide-[#525259] lg:divide-x-1 mt-10  w-full'>
+      <div className='flex flex-col md:flex-row divide-[#525259] md:divide-x-1 mt-10  w-full'>
         {/* Left: TechStack */}
         <div className='flex-1 px-3 lg:px-10 flex items-center overflow-hidden w-full'>
           <TechStack />

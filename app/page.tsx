@@ -1,11 +1,13 @@
 import Experience from "../components/sections/Experience.jsx";
 import Hero from "../components/sections/Hero.jsx";
 import Myskills from "../components/sections/Myskills.jsx";
+import Overview from "../components/sections/Overview.jsx";
 
 const Homepage = () => {
   return (
-    <div className='w-full max-w-7xl mx-auto p-4 lg:p-8 space-y-5'>
+    <div className='w-full max-w-lg md:max-w-5xl lg:max-w-7xl mx-auto p-4 lg:p-8 space-y-5'>
       <Hero />
+      <Overview/>
       <Myskills />
       <Experience />
     </div>
