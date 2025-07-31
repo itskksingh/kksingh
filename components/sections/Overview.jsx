@@ -18,7 +18,7 @@ const Overview = () => {
         {stats.map(({ icon, value, label }) => (
           <div key={label} className="flex flex-col items-center justify-center">
             {icon}
-            <span className="text-4xl md:text-5xl font-bold text-white tracking-wide">
+            <span className="text-4xl font-mono md:text-5xl font-semibold text-white tracking-wide">
               <CountUp
                 start={0}
                 end={value}
