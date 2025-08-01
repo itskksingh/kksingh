@@ -8,6 +8,7 @@
 @theme {
   --animate-spin-slower: spin 10s linear infinite;
   --container-7xl: 85rem;
+  --color-dark-gray: #1f1f24;
 }
 
 @theme inline {
@@ -31,12 +32,11 @@
 } */
 
 body {
-  background-color: var(--background); /* your color */
+  background-color: var(--color-dark-gray); /* your color */
   background-image: url("/img/image.png"); /* path to your image */
   background-repeat: no-repeat; /* or repeat if you want tiling */
   background-size: contain; /* adjust as you like: contain, auto... */
   background-position: top center; /* show image at the top and center */
-  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
