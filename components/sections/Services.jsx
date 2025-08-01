@@ -74,7 +74,7 @@ const myServices = [
 ];
 
 const Services = () => (
-  <Section as='div' className='items-center text-center flex flex-col max-w-7xl mx-auto' animated={false}>
+  <Section as='div' className='items-center text-center flex flex-col max-w-7xl mx-auto'>
     <h3 className='section-mini-title mb-2'>Services</h3>
     <h2 className='section-title max-w-2xl'>
       Designing solutions customized <span>to meet your requirements</span>
