@@ -18,7 +18,7 @@ const Header = () => {
             className="object-contain"
           />
         </div>
-        <span className="text-lg lg:text-2xl font-mono font-semibold text-white">
+        <span className="text-lg lg:text-2xl font-mono font-semibold logo-name">
           kksingh.dev
         </span>
       </div>
