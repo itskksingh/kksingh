@@ -5,15 +5,13 @@ const Servicecard = ({ icon: Icon, title, content, className = "" }) => (
       className
     }
     tabIndex={0}
-    aria-label={title}
-  >
-    <span className="transition-colors duration-300">
-      <Icon className="text-white text-4xl group-hover:text-lime-400" />
+    aria-label={title}>
+    <span className='transition-colors duration-300'>
+      <Icon className='text-white text-4xl group-hover:text-lime-400' />
     </span>
-    <h3 className="font-mono text-xl font-semibold">{title}</h3>
-    <p className="service-para text-gray-300">{content}</p>
+    <h3 className='font-mono text-xl font-semibold text-white'>{title}</h3>
+    <p className='service-para text-gray-300'>{content}</p>
   </div>
 );
-
 
 export default Servicecard;
