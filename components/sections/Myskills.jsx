@@ -8,7 +8,7 @@ const Myskills = () => {
     <Section as='div' className='relative overflow-hidden'>
       <div className='text-center'>
         <h3 className='section-mini-title'>Skills</h3>
-        <h2 className='font-sans text-2xl md:text-3xl lg:text-4xl font-medium text-white'>My Techstacks</h2>
+        <h2 className='font-mono text-2xl md:text-3xl lg:text-4xl font-medium text-white'>My Techstacks</h2>
       </div>
 
       <div className='flex flex-col md:flex-row divide-zinc-400 md:divide-x-1 mt-10  w-full'>

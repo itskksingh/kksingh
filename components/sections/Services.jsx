@@ -79,7 +79,7 @@ const Services = () => (
     <h2 className='section-title max-w-2xl'>
       Designing solutions customized <span>to meet your requirements</span>
     </h2>
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-5 w-full mt-10 p-3'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-5 w-full mt-10 p-2'>
       {myServices.map((ser) => (
         <Servicecard icon={ser.icon} title={ser.title} content={ser.content} key={ser.id} />
       ))}
