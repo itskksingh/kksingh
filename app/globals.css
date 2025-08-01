@@ -72,6 +72,21 @@ body {
   color: transparent;
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease forwards;
+}
+
 @keyframes border-rotate {
   0% {
     --angle: 0deg;

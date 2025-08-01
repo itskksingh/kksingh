@@ -4,6 +4,7 @@ import Myskills from "../components/sections/Myskills.jsx";
 import Overview from "../components/sections/Overview.jsx";
 import Projects from "../components/sections/Projects.jsx";
 import Services from "../components/sections/Services.jsx";
+import ContactSection from "../components/sections/Contact.jsx";
 // import Header from "../components/sections/Header.jsx";
 
 const Homepage = () => {
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Experience />
       <Services />
       <Projects />
+      <ContactSection />
     </div>
   );
 };
