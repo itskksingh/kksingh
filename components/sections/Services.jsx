@@ -69,7 +69,11 @@ const myServices = [
     id: 6,
     icon: IoSpeedometerOutline,
     title: "Performance Optimization",
-    content: <>I optimize your website’s speed, Core Web Vitals, and SEO to improve rankings and conversions.</>,
+    content: (
+      <>
+        I optimize your website’s speed, Core Web Vitals, and <span>SEO to improve</span> rankings and conversions.
+      </>
+    ),
   },
 ];
 
