@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Typetitle = () => {
   return (
-    <p className='text-sm  font-mono block  text-white text-left'>
+    <p className='text-base  font-mono block  text-white text-left'>
       <span className='text-pink-500'>&lt;span&gt;</span>
       Hi, I am{" "}
       <span className='text-lime-400'>

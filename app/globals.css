@@ -59,8 +59,14 @@ body {
   }
 }
 
-@utility text-linear-4 {
-  background: linear-gradient(-90deg, rgb(101, 153, 50), rgb(168, 255, 83));
+/* @layer utilities {
+  .has-span\:text-gradient span {
+    @apply text-linear;
+  }
+} */
+
+@utility text-linear-lime {
+  background: linear-gradient(90deg, var(--color-lime-400), var(--color-lime-600));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -72,5 +78,38 @@ body {
   }
   100% {
     --angle: 360deg;
+  }
+}
+
+@layer utilities {
+  .main-heading {
+    @apply font-mono text-4xl md:text-5xl font-medium text-white mb-8;
+  }
+  .main-heading span {
+    @apply text-linear-lime;
+  }
+}
+
+@layer utilities {
+  .section-title {
+    @apply font-mono text-2xl md:text-4xl font-medium text-white mb-2;
+  }
+  .section-title span {
+    @apply text-slate-400;
+  }
+}
+
+@layer utilities {
+  .section-mini-title {
+    @apply text-lime-400 font-mono text-sm mb-2;
+  }
+}
+
+@layer utilities {
+  .service-para {
+    @apply text-zinc-400 text-left font-mono text-sm;
+  }
+  .service-para span {
+    @apply text-pink-500;
   }
 }

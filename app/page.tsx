@@ -2,6 +2,7 @@ import Experience from "../components/sections/Experience.jsx";
 import Hero from "../components/sections/Hero.jsx";
 import Myskills from "../components/sections/Myskills.jsx";
 import Overview from "../components/sections/Overview.jsx";
+import Services from "../components/sections/Services.jsx";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
       <Overview/>
       <Myskills />
       <Experience />
+      <Services/>
     </div>
   );
 };

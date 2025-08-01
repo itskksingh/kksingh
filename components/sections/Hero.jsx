@@ -30,11 +30,12 @@ const Hero = () => {
         {/* Text Content */}
         <div className='flex-1 w-full flex flex-col items-start space-y-2 overflow-hidden'>
           <Typetitle />
-          <h1 className='font-mono text-3xl  md:text-4xl  lg:text-5xl font-semibold capitalize  lg:text-left leading-tight text-white'>
-            Senior <span className='text-linear-4'>{" {full stack} "}</span>
-            web &amp; app developer.
+
+          <h1 className='main-heading'>
+            Senior <span>{" {full stack} "}</span> Web &amp; App developer.
           </h1>
-          <p className='font-mono font-light text-sm md:text-lg text-white'>
+
+          <p className='font-mono font-light text-sm md:text-base text-white'>
             <span className='text-pink-500'>&lt;p&gt;</span>With expertise in cutting-edge technologies such as
             <span className='text-pink-500'> NextJs, React, NodeJS, Angular, and Tailwind</span>
             ... I deliver web solutions that are both innovative and robust.

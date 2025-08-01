@@ -5,9 +5,10 @@ const Experience = () => {
   return (
     <section className='flex gap-8 flex-col md:flex-row '>
       <Section as='div' className='flex md:flex-3/2 relative overflow-hidden'>
-        <h2 className='text-white text-3xl font-mono'>
-          Trusted by more than 100+ <span className='text-slate-500'>companies worldwide_</span>{" "}
+        <h2 className='section-title'>
+          Trusted by more than 100+ <span> companies worldwide_</span>
         </h2>
+
         <FaReact
           className='absolute -top-24 -right-24 text-[220px] text-[#576b55] animate-spin-slower opacity-10 pointer-events-none z-10'
           aria-hidden='true'
@@ -15,8 +16,8 @@ const Experience = () => {
       </Section>
 
       <Section as='div' animated={false}>
-        <h2 className='text-white text-3xl font-mono'>
-          Hello by <span className='text-slate-500'>kksingh_</span>{" "}
+        <h2 className='section-title'>
+          Hello by <span>kksingh_</span>
         </h2>
       </Section>
     </section>
