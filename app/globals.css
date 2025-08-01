@@ -113,3 +113,11 @@ body {
     @apply text-pink-500;
   }
 }
+
+@utility logo-name {
+  background: linear-gradient(270deg, hsla(0, 0%, 100%, 0.32), #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}

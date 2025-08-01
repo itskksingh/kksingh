@@ -17,16 +17,19 @@ const Hero = () => {
     <Section className='border border-[#3b413d]'>
       <div className='flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 '>
         {/* Profile Image */}
-        <div className='flex-shrink-0 mb-8 lg:mb-0'>
+
+        <div className='flex gap-0 flex-col items-center  mb-8 lg:mb-0 '>
           <Image
             src='/img/my-profile.png'
             width={450}
             height={450}
             alt='my-image'
-            className='rounded-full object-cover '
+            className='rounded-full object-contain'
             priority
           />
+          <Image src='/img/kklogo-icon.png' width={70} height={70} alt='my-image' className='object-cover -mt-15 ' priority />
         </div>
+
         {/* Text Content */}
         <div className='flex-1 w-full flex flex-col items-start space-y-2 overflow-hidden'>
           <Typetitle />
