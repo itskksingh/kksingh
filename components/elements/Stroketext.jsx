@@ -1,7 +1,12 @@
 const Stroketext = () => {
   return (
-    <div className='w-full mx-auto text-center overflow-hidden '>
-      <h1 className='text-stroke-gradient text-center font-mono text-[80px] sm:text-[115px] md:text-[135px] lg:text-[160px] xl:text-[230px] leading-none'>
+    <div className='w-full px-4 overflow-hidden'>
+      <h1
+        className='text-stroke-gradient font-mono text-center leading-none'
+        style={{
+          fontSize: "clamp(2rem, 14vw, 15rem)", // min 32px, scales up to 192px
+          wordBreak: "break-word", // in case text overflows
+        }}>
         kksingh.dev
       </h1>
     </div>
