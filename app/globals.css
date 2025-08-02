@@ -72,6 +72,19 @@ body {
   color: transparent;
 }
 
+@utility text-stroke-gradient {
+  background: linear-gradient(-180deg, #8f8f92
+  , transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #1f1f24;
+  -webkit-text-stroke: 1px transparent;
+  paint-order: stroke fill;
+  font-weight: 800;
+  white-space: nowrap;
+  display: inline-block; /* ✅ Ensures background scales properly */
+  width: 100%;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
