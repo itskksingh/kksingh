@@ -1,6 +1,6 @@
 const Stroketext = () => {
   return (
-    <div className='w-full px-4 overflow-hidden'>
+    <div className=' w-full overflow-hidden flex-col flex items-center'>
       <h1
         className='text-stroke-gradient font-mono text-center leading-none'
         style={{
@@ -9,6 +9,7 @@ const Stroketext = () => {
         }}>
         kksingh.dev
       </h1>
+      <div className='w-full h-px bg-gradient-to-r from-transparent via-zinc-600 to-transparent mt-0' />
     </div>
   );
 };
